@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .image-section,
+  .text-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh; /* Set minimum height for each section */
+  }
+  
+  .image-section {
+    background-color: #f0f0f0;
+  }
+  
+  .image-section img {
+    width: 80%;
+    max-width: 500px;
+  }
+  
+  .text-section {
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .text-section h1 {
+    font-size: 2em;
+    margin-bottom: 1rem;
+  }
+  
